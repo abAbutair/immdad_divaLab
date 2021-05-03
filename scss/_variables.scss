@@ -1,0 +1,129 @@
+// colors
+$mainBlue: #06b5ea;
+$white: #fff;
+$darkGray: #30302e;
+$lightGray: #f0eeee;
+$alph: rgba(6,167,217,0.9);
+$mainColor: #333;
+
+
+// font sizes
+$bigTitle: 48px;
+$Title: 36px;
+$subTitleSize: 24px;
+$littleTitle : 18px;
+$normalSize: 17px;
+$navSize:16px;
+$paragraph: 14px;
+$smallSize: 12px;
+
+
+$secPadding: 50px 0 50px 0;
+
+//-----progress-bar-----
+$borderWidth: 3px;
+$animationTime: 1.5s;
+$border-color-default: #eee;
+$border-color-fill: #06b5ea;
+$size: 150px;
+
+
+//Create how many steps
+$howManySteps: 10;
+
+
+
+//----- translate -----
+$isRtl: rtl;
+$left: left;
+$right: right;
+$direction:ltr;
+$minus: 1;
+$bodyFont: RobotoSlab;
+$headingFont: futura-bold;
+$headingFontLight: futura-med;
+$langFont:DroidKufi;
+
+$double-right: "\f101";
+$double-left: "\f100";
+$chevron-left:"\f053";
+$chevron-right:"\f054";
+$angle-right: '\f105';
+
+
+$rotate90: 90deg;
+
+$letter-spacing: 8px;
+$letter-spacing02: 1px;
+$letter-spacing03: 4px;
+
+$flex-direction:row;
+$rotateY: rotateY(0);
+$rotateZ: rotateZ(0);
+$contentEn:'read more';
+
+
+@if $isRtl == rtl
+{
+    $left: right;
+    $right: left;
+    $direction:rtl;
+    $minus: -1;
+    $bodyFont: DroidKufi;
+    $headingFont: DroidKufi;
+    $headingFontLight: DroidKufi;
+    $langFont:RobotoSlab;
+    $navSize:18px;
+    $double-right: "\f100";
+    $double-left: "\f101";
+    $angle-right: '\f104';
+    $chevron-left:"\f054";
+    $chevron-right:"\f053";
+    $rotate90: -90deg;
+    $flex-direction:row-reverse;
+    $rotateY: rotateY(180deg);
+    $rotateZ: rotateZ(180deg);
+    $contentEn:'المزيد إقرأ';
+    $letter-spacing: 0;
+    $letter-spacing02: 0;
+    $letter-spacing03: 0;
+
+    $subTitleSize: 26px;
+    $littleTitle : 20px;
+    $normalSize: 19px;
+    $navSize: 18px;
+    $paragraph: 16px;
+    $smallSize: 14px;
+
+}
+@else {
+    $left: left;
+    $right: right;
+    $direction:ltr;
+    $minus: 1;
+    $bodyFont: RobotoSlab;
+    $headingFont: futura-bold;
+    $headingFontLight: futura-med;
+    $langFont:DroidKufi;
+    $double-right: "\f101";
+    $double-left: "\f100";
+    $angle-right: '\f105';
+    $chevron-left:"\f053";
+    $chevron-right:"\f054";
+    $rotate90: 90deg;
+    $flex-direction:row;
+    $rotateY: rotateY(0);
+    $rotateZ: rotateZ(0);
+    $contentEn:'read more';
+    $letter-spacing: 8px;
+    $letter-spacing02: 1px;
+    $letter-spacing03: 4px;
+
+    $subTitleSize: 24px;
+    $littleTitle : 18px;
+    $normalSize: 17px;
+    $navSize: 16px;
+    $paragraph: 14px;
+    $smallSize: 12px;
+
+}

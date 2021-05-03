@@ -1,0 +1,46 @@
+@import "_variables";
+@import "_mixins";
+@import "_partials";
+@import "_animation";
+@import "_general";
+@import "_header-footer";
+@import "_main";
+@import "_responsive";
+
+///////////////////////////////////////////////
+
+@font-face {
+    font-family: 'Jose-Regular';
+    src: url('../fonts/JosefinSans-Regular.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Jose-Light';
+    src: url('../fonts/JosefinSans-Light.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Jose-Bold';
+    src: url('../fonts/JosefinSans-Bold.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Jose-SemiBold';
+    src: url('../fonts/JosefinSans-SemiBold.ttf');
+    font-style: normal;
+}
+
+/* Arabic fonts
+@font-face {
+    font-family: 'DroidKufi';
+    src: url('../fonts/DroidKufi-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BalooBhaijaan';
+    src: url('../fonts/BalooBhaijaan-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*/

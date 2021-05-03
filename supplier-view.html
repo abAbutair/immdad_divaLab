@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style-en.css">
+</head>
+<body>
+<!--HEADER-->
+<header class="header">
+    <div class="container"><!--start of container-->
+        <div class="header-wrapper d-flex align-items-center justify-content-between"><!--start of header-wrapper-->
+            <nav class="navbar navbar-expand-lg"><!--end of nav-bar-->
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse lang-login">
+                    <ul class="navbar-nav">
+                        <li class="nav-item icon"><a class="nav-link fa fa-sign-in" href=""></a></li>
+                        <li class="nav-item icon">
+                            <button type="button" id="signIn" class="btn btn-primary form-btn-head" data-toggle="modal" data-target="#exampleModalCenter">
+                                <i class="nav-link fa fa-user-plus"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle language-font" href="#" id="Language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language </a>
+                            <ul class="dropdown-menu" aria-labelledby="Language">
+                                <li><a class="dropdown-item" href="#">Ar</a></li>
+                                <li><a class="dropdown-item" href="#">En</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ourNav">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse list-nav" id="ourNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"> <a href="about-us.html" class="nav-link">About us</a> </li>
+                        <li class="nav-item"> <a href="" class="nav-link">List Your business</a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="AccoutDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                My Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="AccoutDrop">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#" class="close-menu" onclick="closeNav()"><i class="fas fa-angle-left"></i></a>
+                </div>
+            </nav><!--end of nav-bar-->
+        </div><!--start of header-wrapper-->
+    </div><!--end of container-->
+</header><!---end of header-->
+
+
+<main class="page-content"><!--start page-content-->
+    <section class="index-carousel"><!--start of index-carousel-->
+        <div class="container">
+            <!--find-shape-->
+            <div class="find position-absolute">
+                <h1 class="find-ttle">Find Suppliers, Insights, Tools and More…</h1>
+                <form class="d-flex">
+                    <div class="input-group mb-3">
+                        <div class="sup-select">
+                            <div class="input-group-text the-select">
+                                <div class="sel">
+                                    <select class="custom-select">
+                                        <option selected>Suppliers</option>
+                                        <option value="1">Sup01</option>
+                                        <option value="2">Sup02</option>
+                                        <option value="3">Sup03</option>
+                                        <option value="4">Sup04</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <div class="sup-submit">
+                            <div class="input-group-text the-sumbit">
+                                <button type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>        <!--carousel-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url(images/slide1.jpg);"></div>
+                <div class="carousel-item" style="background-image: url(images/slide1.jpg);"></div>
+                <div class="carousel-item" style="background-image: url(images/slide1.jpg);"></div>
+            </div>
+        </div>
+        <!--the-shape-->
+        <div class="curve"></div>
+
+        <!--breadcrumb-->
+        <nav class="breadcrumb-wrapper" aria-label="breadcrumb">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><p>supplier information</p></li>
+                </ol>
+            </div>
+        </nav>
+
+    </section><!--end of index-carousel-->
+
+    <div class="internals-content">
+        <div class="container">
+            <section class="supplier-view">
+                <div class="supplier-info">
+                    <div class="supplier-img">
+                        <img src="images/supplier.jpg" alt="">
+                    </div>
+                    <div class="supplier-text">
+                        <h2 class="find-ttle-02">F.W. Web Company Visit Website</h2>
+                        <a href="#">www.rocklineind.com/products/</a>
+                        <div class="view-save">
+                            <button class="btn common-btn" type="submit">
+                                view suppliers
+                            </button>
+                            <button class="btn common-btn" type="submit">
+                                save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="business-details">
+                    <h3>business details</h3>
+                    <p><span>Primary Company Type: </span><span>Distributor</span></p>
+                    <p><span>Additional Activities: </span><span>Custom Manufacturer, Finishing Service Company, Turnkey Systems Integrator</span></p>
+                    <p><span>Key Personnel:</span><span>Ernie Coutermarsh, V.P.</span></p>
+                    <p><span>Additional Activities:</span><span>Custom Manufacturer, Finishing Service Company, Turnkey Systems Integrator</span></p>
+                    <p><span>Key Personnel: </span><span>Ernie Coutermarsh, V.P.</span></p>
+                </div>
+                <div class="business-details-rt">
+                    <div class="services-offered clearfix">
+                        <h3>Products / Services Offered</h3>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Brands Carried</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="single-cate">
+                                    <h4>pipes</h4>
+                                    <div class="tags-div">
+                                        <div class="tags">
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-cate">
+                                    <h4>pipes</h4>
+                                    <div class="tags-div">
+                                        <div class="tags">
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>PVC</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                            <a href="#"><span>Pipe:</span> <span>Plastic</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                        </div>
+                    </div>
+                    <div class="product-services">
+                        <h3>All Product/ Services</h3>
+                        <div class="single-cate">
+                            <div class="tags-div">
+                                <div class="tags">
+                                    <a href="#"><span>Unions</span></a>
+                                    <a href="#"><span>Unions</span></a>
+                                    <a href="#"><span>Unions</span></a>
+                                    <a href="#"><span>Unions</span></a>
+                                    <a href="#"><span>Unions</span></a>
+                                    <a href="#"><span>Unions</span></a>
+                                    <a href="#"><span>Plastic</span></a>
+                                    <a href="#"><span>Plastic</span></a>
+                                    <a href="#"><span>Valves</span></a>
+                                    <a href="#"><span>Valves</span></a>
+                                    <a href="#"><span>PVC</span></a>
+                                    <a href="#"><span>PVC</span></a>
+                                    <a href="#"><span>Valves</span></a>
+                                    <a href="#"><span>Plastic</span></a>
+                                    <a href="#"><span>Valves</span></a>
+                                    <a href="#"><span>Plastic</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</main><!--end of page-content-->
+
+<div class="fr-ttle contact"><!--start of contact-->
+    <div class="container"><!--start of container-->
+        <footer class="footer"><!--start of footer-->
+            <div class="footer-wrapping"><!--start of footer-wrapping-->
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12 about-news">
+                        <div class="footer-title about">
+                            <h3 class="title">About</h3>
+                            <div class="row">
+                                <div class="col-lg-4 d-lg-block d-md-none img">
+                                    <img src="images/about.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 text">
+                                    <p>Viverra nam sem amet massa aliquet vici adipiscing laoreet ut. Quis aliquam
+                                        aliquet amet. Ante ut etiam quam. Maecenas phasellus felis dapibus ultricies
+                                        pretium ut tellus laoreet fringilla.  Viverra nam sem amet massa aliquet vici
+                                        adipiscing laoreet ut. Quis aliquam aliquet amet. Ante ut etiam quam. Maecenas
+                                        phasellus felis dapibus ultricies pretium ut tellus laoreet fringilla. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-letter">
+                            <div class="footer-tile">
+                                <h3 class="title">News Letter</h3>
+                                <form class="">
+                                    <div class="input-group input-wrapper">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                        <span class="input-group-text">
+                                                <button type="submit" class="btn"><i class="fa fa-paper-plane clr_main"></i></button>
+                                            </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 site-map">
+                        <h3 class="title">Site Map</h3>
+                        <ul class="map-list">
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Categories</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Features</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Pages</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Shop</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Categories</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Features</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Pages</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Shop</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <form class="col-lg-4 col-sm-12 get-in-touch">
+                        <h3 class="title text-capitalize">Get in touch</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" rows="3" ></textarea>
+                        </div>
+                        <button type="submit" class="btn common-btn send bg_main">Send</button>
+                    </form>
+                </div>
+            </div><!--start of footer-wrapping-->
+            <div class="copyright">
+                <p class="text-center">Copyright 2018 Immdad; all rights reserved | Powered by <a href="https://www.div-lab.com" target="_blank" class="clr_main">Diva lab</a></p>
+            </div>
+        </footer><!--end of footer-->
+    </div><!--end of container-->
+</div><!--end of contact-->
+
+<div class="fixed-social position-fixed">
+    <ul>
+        <li><a href="" class="fa fa-youtube youtube"></a></li>
+        <li><a href="" class="fa fa-facebook facebook"></a></li>
+        <li><a href="" class="fa fa-google-plus google"></a></li>
+        <li><a href="" class="fa fa-linkedin linkedin"></a></li>
+
+    </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!--<script src="js/jquery-3.3.1.slim.min.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+
+<script type="text/javascript" src="js/select_style.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+
+
+<script src="js/custom.js"></script>
+</body>
+</html>

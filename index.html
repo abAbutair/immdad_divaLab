@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style-en.css">
+</head>
+<body>
+<!--HEADER-->
+<header class="header">
+    <div class="container"><!--start of container-->
+        <div class="header-wrapper d-flex align-items-center justify-content-between"><!--start of header-wrapper-->
+            <nav class="navbar navbar-expand-lg"><!--end of nav-bar-->
+                <div class="logo">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse lang-login">
+                    <ul class="navbar-nav">
+                        <li class="nav-item icon"><a class="nav-link fa fa-sign-in" href=""></a></li>
+                        <li class="nav-item icon">
+                            <button type="button" id="signIn" class="btn btn-primary form-btn-head" data-toggle="modal"
+                                    data-target="#exampleModalCenter">
+                                <i class="nav-link fa fa-user-plus"></i>
+                            </button>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle language-font" href="#" id="Language" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language </a>
+                            <ul class="dropdown-menu" aria-labelledby="Language">
+                                <li><a class="dropdown-item" href="#">Ar</a></li>
+                                <li><a class="dropdown-item" href="#">En</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ourNav">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse list-nav" id="ourNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a href="about-us.html" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">List Your business</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="AccoutDrop" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                My Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="AccoutDrop">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#" class="close-menu" onclick="closeNav()"><i class="fas fa-angle-left"></i></a>
+                </div>
+            </nav><!--end of nav-bar-->
+        </div><!--start of header-wrapper-->
+    </div><!--end of container-->
+</header><!---end of header-->
+
+<main class="page-content"><!--start page-content-->
+    <section class="index-carousel index-height"><!--start of index-carousel-->
+        <!--find-shape-->
+        <div class="container">
+            <div class="find position-absolute">
+                <h1 class="find-ttle">Find Suppliers, Insights, Tools and More…</h1>
+                <form class="d-flex">
+                    <div class="input-group mb-3">
+                        <div class="sup-select">
+                            <div class="input-group-text the-select">
+                                <div class="sel">
+                                    <select class="custom-select">
+                                        <option selected>Suppliers</option>
+                                        <option value="1">Sup01</option>
+                                        <option value="2">Sup02</option>
+                                        <option value="3">Sup03</option>
+                                        <option value="4">Sup04</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <div class="sup-submit">
+                            <div class="input-group-text the-sumbit">
+                                <button type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--carousel-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url(images/slide1.jpg);"></div>
+                <div class="carousel-item" style="background-image: url(images/slide1.jpg);"></div>
+                <div class="carousel-item" style="background-image: url(images/slide1.jpg);"></div>
+            </div>
+        </div>
+        <!--the-shape-->
+        <div class="curve"></div>
+    </section><!--end of index-carousel-->
+    <section class="section blogs fr-ttle position-relative"><!--start of blogs-->
+        <!--title-->
+        <h2 class="ttle clr_main text-center"><span>Blogs</span></h2>
+        <div class="container"><!--start of container-->
+            <div class="owl-carousel owl-theme"><!--OWL-->
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl1.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System1</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl2.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System2</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl3.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System3</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl1.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System4</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl2.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System5</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl3.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System5</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl1.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System5</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl2.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System5</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-wrapper">
+                        <img src="images/owl3.jpg" class="img-fluid">
+                    </div>
+                    <div class="item-texts">
+                        <h5 class="item-ttle">Automovtive parts & System5</h5>
+                        <p class="item-date">18.5.2014</p>
+                        <p class="item-para">Real Factory’s R&D Automotive applications are aimed at giving the company
+                            a competitive edge in the automotive market.</p>
+                        <p class="read-more"><a href="" class="clr_main">Read more</a></p>
+                    </div>
+                </div>
+            </div><!--end OWL-->
+        </div><!--end of container-->
+    </section><!--end of blogs-->
+    <section class="section counter fr-ttle position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="counter-block">
+                        <div class="counter-img">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="counter-info">
+                            <h2>Company Profile</h2>
+                            <h5><span class="progress_counter" data-count="14544">0</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="counter-block">
+                        <div class="counter-img">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="counter-info">
+                            <h2>buyers</h2>
+                            <h5><span class="progress_counter" data-count="14544">0</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="counter-block">
+                        <div class="counter-img">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        <div class="counter-info">
+                            <h2>Request for quote (RFQ)</h2>
+                            <h5>active <span class="progress_counter" data-count="14544">0</span></h5>
+                            <h5>completed <span class="progress_counter" data-count="14544">0</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section categories fr-ttle position-relative" style="background-image: url('images/slide1.jpg')">
+        <!--start of categories-->
+        <div class="content position-relative"><!--start of content-->
+            <h2 class="ttle clr_main text-center"><span>Categories</span></h2>
+            <div class="container"><!--start of container-->
+                <nav>
+                    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="tab1" data-toggle="tab" href="#tabOne" role="tab"
+                           aria-controls="tabOne" aria-selected="true">Supplier Categories</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#tabTwo" role="tab"
+                           aria-controls="tabTwo" aria-selected="false">Product Catalogs</a>
+                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#tabThree" role="tab"
+                           aria-controls="tabThree" aria-selected="false">CAD Drawings</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="tabOne" role="tabpanel" aria-labelledby="tab1">
+                        <div class="row the-wrapper">
+                            <div class="col-xl-3 col-lg-4 col-sm-6 position-relative">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab1.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex ">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment Dispensing Equipment">Adhesive
+                                                    Dispensing Equipment Dispensing Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab2.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab3.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex ">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab4.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab5.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab6.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab7.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab8.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabTwo" role="tabpanel" aria-labelledby="tab2">
+                        <div class="row the-wrapper">
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab1.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex ">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab2.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab3.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab4.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabThree" role="tabpanel" aria-labelledby="tab3">
+                        <div class="row the-wrapper">
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab5.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab6.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab7.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="data-inner d-flex align-items-center justify-content-center"
+                                     style="background-image: url('images/tab8.jpg')">
+                                    <h3 class="category-name">Adhesives & Sealants </h3>
+                                    <div class="get-hover d-flex">
+                                        <div class="wrapper">
+                                            <ul class="hover-list">
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesives</a>
+                                                </li>
+                                                <li><a href="" data-toggle="tooltip" title="Adhesives">Adhesive
+                                                    Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Tapes">Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip" title="Pressure Sensitive Tapes">Pressure
+                                                    Sensitive Tapes</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                                <li><a href="" data-toggle="tooltip"
+                                                       title="Adhesive Dispensing Equipment">Adhesive Dispensing
+                                                    Equipment</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="load">
+                                            <i class="fa fa-long-arrow-right load-btn"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end of container-->
+        </div><!--end of content-->
+    </section><!--end of categories-->
+</main><!--end of page-content-->
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form action="">
+                    <div class="form-group">
+                        <h2>Login form</h2>
+                        <input type="email" placeholder="Email" class="form-control">
+                        <input type="password" placeholder="Password" class="form-control">
+                        <div class="form-group check-square">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">remember me</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn common-btn">Login</button>
+                        <a href="#" class="forgot-pass">forgot password</a>
+                        <p class="dont-have-acc">don't have account <a href="#">register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="fr-ttle contact"><!--start of contact-->
+    <div class="container"><!--start of container-->
+        <footer class="footer"><!--start of footer-->
+            <div class="footer-wrapping"><!--start of footer-wrapping-->
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12 about-news">
+                        <div class="footer-title about">
+                            <h3 class="title">About</h3>
+                            <div class="row">
+                                <div class="col-lg-4 d-lg-block d-md-none img">
+                                    <img src="images/about.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 text">
+                                    <p>Viverra nam sem amet massa aliquet vici adipiscing laoreet ut. Quis aliquam
+                                        aliquet amet. Ante ut etiam quam. Maecenas phasellus felis dapibus ultricies
+                                        pretium ut tellus laoreet fringilla. Viverra nam sem amet massa aliquet vici
+                                        adipiscing laoreet ut. Quis aliquam aliquet amet. Ante ut etiam quam. Maecenas
+                                        phasellus felis dapibus ultricies pretium ut tellus laoreet fringilla. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-letter">
+                            <div class="footer-tile">
+                                <h3 class="title">News Letter</h3>
+                                <form class="">
+                                    <div class="input-group input-wrapper">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                        <span class="input-group-text">
+                                                <button type="submit" class="btn"><i
+                                                        class="fa fa-paper-plane clr_main"></i></button>
+                                            </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 site-map">
+                        <h3 class="title">Site Map</h3>
+                        <ul class="map-list">
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Categories</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Features</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Pages</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Shop</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Categories</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Features</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Pages</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Shop</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Portfolio</a></li>
+                            <li><i class="fa fa-angle-right clr_main"></i> <a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <form class="col-lg-4 col-sm-12 get-in-touch">
+                        <h3 class="title text-capitalize">Get in touch</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn common-btn send bg_main">Send</button>
+                    </form>
+                </div>
+            </div><!--start of footer-wrapping-->
+            <div class="copyright">
+                <p class="text-center">Copyright 2018 Immdad; all rights reserved | Powered by <a
+                        href="https://www.div-lab.com" target="_blank" class="clr_main">Diva lab</a></p>
+            </div>
+        </footer><!--end of footer-->
+    </div><!--end of container-->
+</section><!--end of contact-->
+
+<div class="fixed-social position-fixed">
+    <ul>
+        <li><a href="" class="fa fa-youtube youtube"></a></li>
+        <li><a href="" class="fa fa-facebook facebook"></a></li>
+        <li><a href="" class="fa fa-google-plus google"></a></li>
+        <li><a href="" class="fa fa-linkedin linkedin"></a></li>
+    </ul>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+
+<script>
+    $(window).scroll(function() {
+        var oTop = $('.counter').offset().top - window.innerHeight;
+        if ($(window).scrollTop() > oTop) {
+
+            $('.progress_counter').each(function () {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                $({
+                    countNum: $this.text()
+                }).animate({
+                    countNum: countTo
+                }, {
+                    duration: 3000,
+                    easing: 'swing',
+                    step: function() {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                        $this.text(this.countNum);
+                    }
+                });
+            });
+        }
+    });
+</script>
+<script>
+    new WOW().init();
+
+    ////////////////////////////////////
+
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dot: true,
+        // rtl:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            578: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.custom-select').select2({
+            minimumResultsForSearch: Infinity
+        });
+    });
+</script>
+
+<script src="js/custom.js"></script>
+</body>
+</html>
